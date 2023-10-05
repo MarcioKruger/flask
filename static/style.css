@@ -227,3 +227,11 @@ i.menu-mobile{
     background: #fff;
     margin-left: -09px;
 }
+
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+
+.carousel-inner{
+    height: auto;
+}
