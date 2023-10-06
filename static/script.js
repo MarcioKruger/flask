@@ -43,3 +43,20 @@ animeScroll()
 window.addEventListener("scroll", () => {
     animeScroll();
 })
+
+// Ativar o botão spinner de carregamento
+
+const btnEnviar=document.querySelector('#btn-enviar')
+const enviandoemail=document.querySelector('#enviandoemail')
+
+btnEnviar.addEventListener("click", ()=>{
+    enviandoemail.style.display="block";
+    btnEnviar.style.display="none";
+
+})
+
+// tirar a mensagem de email enviado após 5 segundos...
+
+setTimeout(()=> {
+    document.querySelector('#alerta').style.display='none'
+}, 5000)
